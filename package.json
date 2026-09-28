@@ -1,0 +1,35 @@
+{
+  "name": "@journey-to-code/open-template-interpolate",
+  "version": "1.0.0",
+  "description": "Small dependency-free placeholder interpolation with nested object paths and configurable missing-value behavior.",
+  "type": "module",
+  "main": "./src/index.js",
+  "types": "./src/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./src/index.d.ts",
+      "import": "./src/index.js",
+      "default": "./src/index.js"
+    }
+  },
+  "files": [
+    "src",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "test": "node --test",
+    "check": "npm test"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "keywords": [
+    "template",
+    "interpolate",
+    "string",
+    "placeholder"
+  ],
+  "license": "MIT",
+  "sideEffects": false
+}
